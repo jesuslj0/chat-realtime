@@ -1,0 +1,15 @@
+{
+  "name": "chat-realtime",
+  "version": "1.0.0",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "test": "NODE_ENv=test node jest",
+    "dev": "NODE_ENV=dev nodemon server.js",
+    "start": "NODE_ENV=dev node server.js"
+  },
+  "keywords": ["chat", "realtime-chat"],
+  "author": "Jesús López Jaén",
+  "license": "MIT",
+  "description": "Chat in real time with WebSockets, Express and MongoDB"
+}
