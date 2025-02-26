@@ -1,0 +1,8 @@
+POST http://localhost:4001/api/chat/send HTTP/1.1
+Content-Type: application/json 
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3YmY1NjNiMjE0MTA2ZjZiNDRjYmMzZSIsImlhdCI6MTc0MDU5Njk2NywiZXhwIjoxNzQwNjAwNTY3fQ.ux9_9ejOWH9Z_o0mUpTfgMh4XENgM1qaamszhuT6Pxs
+
+{
+    "content": "Mensaje de prueba",
+    "room": 1
+}

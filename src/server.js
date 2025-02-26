@@ -15,7 +15,6 @@ const io = new Server(server, { //Conexión con websockets
     },
 });
 
-
 // Manejo de conexión de usuarios
 io.on("connection", (socket) => {
     console.log("🟢 Usuario conectado:", socket.id);
