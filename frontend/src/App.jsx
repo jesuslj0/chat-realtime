@@ -1,12 +1,14 @@
 import './App.css'
-import { Login } from './pages/Login'
+import Chat from './pages/Chat';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Login from './pages/Login';
 
 function App() {
 
   return (
     <>
       <Login />
+      <Chat />
     </>
   )
 }

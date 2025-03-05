@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Container, Card, Button, Form } from "react-bootstrap"
 
-export const Login = () => {
+const Login = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [error, setError] = useState(null);
@@ -24,7 +24,7 @@ export const Login = () => {
         throw new Error(data.message || "Error al iniciar sesión");
       }
 
-      localStorage.setItem("token", data.token);
+      localStorage.setItem("jwt_token", data.token);
       setError(null)
       console.log("Login exitoso!");
     } catch (err) {
@@ -54,3 +54,5 @@ export const Login = () => {
     </Container>
   );
 };
+
+export default Login;

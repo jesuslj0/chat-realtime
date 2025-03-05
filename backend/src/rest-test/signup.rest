@@ -2,7 +2,7 @@ POST http://localhost:4001/api/auth/signup HTTP/1.1
 Content-Type: application/json
 
 {
-    "name": "Test",
-    "email": "test@gmail.com",
-    "password": "12345678"
+    "name": "Jesús",
+    "email": "jesuslopj0@gmail.com",
+    "password": "node1234"
 }
